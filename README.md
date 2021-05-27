@@ -5,11 +5,9 @@ Home: https://github.com/iamamutt/ggdistribute
 
 Package license: GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggdistribute-feedstock/blob/master/LICENSE.txt)
 
 Summary: The 'ggdistribute' package is an extension for plotting posterior or other types of unimodal distributions that require overlaying information about a distribution's intervals. It makes use of the 'ggproto' system to extend 'ggplot2', providing additional "geoms", "stats", and "positions." The extensions integrate with existing 'ggplot2' layer elements.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-ggdistribute` from the `conda-forge` channel can be achieved by ad
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-ggdistribute` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
