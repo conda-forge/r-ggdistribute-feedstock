@@ -57,12 +57,6 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
 
 # Package: ggdistribute
 # Title: A 'ggplot2' Extension for Plotting Unimodal Distributions
