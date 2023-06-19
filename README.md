@@ -1,11 +1,11 @@
-About r-ggdistribute
-====================
+About r-ggdistribute-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggdistribute-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/iamamutt/ggdistribute
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggdistribute-feedstock/blob/main/LICENSE.txt)
 
 Summary: The 'ggdistribute' package is an extension for plotting posterior or other types of unimodal distributions that require overlaying information about a distribution's intervals. It makes use of the 'ggproto' system to extend 'ggplot2', providing additional "geoms", "stats", and "positions." The extensions integrate with existing 'ggplot2' layer elements.
 
